@@ -59,6 +59,8 @@ section h2 {
 form {
   display: grid;
   gap: 1.5rem;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 form div {
@@ -117,6 +119,7 @@ button {
 
 #bookFormSubmit {
   width: 100%;
+  box-sizing: border-box;
 }
 
 #bookFormSubmit:hover,
